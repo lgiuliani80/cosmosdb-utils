@@ -6,14 +6,14 @@
 * Create the `invalid-geos.json`.  
   The file shall contain a JSON array according to the following pattern:
   
-     [
-        {
-            "id": "<document-id>",
-            "partitionKey": "<partition-key>",
-            "geometry": <geoJSON>
-        },
-        ...
-     ]
+        [
+           {
+               "id": "<document-id>",
+               "partitionKey": "<partition-key>",
+               "geometry": <geoJSON>
+           },
+           ...
+        ]
    
 ## Usage
 
